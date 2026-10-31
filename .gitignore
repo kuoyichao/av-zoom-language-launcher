@@ -1,0 +1,27 @@
+# Local meeting credentials and personal language configuration
+zoom_sessions.json
+zoom_languages.json
+window_defaults_*.json
+.zoom-*
+
+# Python and local development environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build-venv/
+
+# Generated applications, packages, and build inputs
+build/
+dist/
+*.app/
+installers/
+*.pkg
+*.exe
+
+# Local conference monitoring data and legacy local backup
+mac-usage-logs/
+packaging/launcher-v1-backup.py
+
+# macOS metadata
+.DS_Store
